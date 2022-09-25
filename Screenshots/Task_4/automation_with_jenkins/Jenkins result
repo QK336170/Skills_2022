@@ -1,0 +1,34 @@
+Started by user admin
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/jenkins_home/workspace/automation_with_jenkins
+[Pipeline] {
+[Pipeline] timeout
+Timeout set to expire in 20 sec
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Test)
+[Pipeline] sh
++ docker pull cturra/ntp
+Using default tag: latest
+latest: Pulling from cturra/ntp
+Digest: sha256:ce6e675308150a69e3315ef44b49be92bcf79db95fa2330f61f1291fcd8807f6
+Status: Image is up to date for cturra/ntp:latest
+docker.io/cturra/ntp:latest
+[Pipeline] sh
++ docker run cturra/ntp
+2022-09-25T17:41:48Z chronyd version 4.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP -SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2022-09-25T17:41:48Z Disabled control of system clock
+2022-09-25T17:41:48Z Could not read valid frequency and skew from driftfile /var/lib/chrony/chrony.drift
+2022-09-25T17:41:52Z Selected source 162.159.200.123 (time.cloudflare.com)
+Cancelling nested steps due to timeout
+Sending interrupt signal to process
+2022-09-25T17:42:04Z chronyd exiting
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // timeout
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
