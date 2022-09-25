@@ -1,0 +1,14 @@
+pipeline {
+    options {
+        timeout(time: 20, unit: 'SECONDS') 
+    }
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                sh 'docker pull cturra/ntp'
+                sh 'docker run cturra/ntp'
+            }
+        }
+    }
+}
