@@ -1,6 +1,8 @@
 # Skills_2022
 Seminar on Software Systems, Technologies and Security
 
+<b>THE SCREENSHOTS FOLDER INCLUDES EVERYTHING</b>
+
 Steps for task Task 1 -- GitHub Skills Test :
 Step 1 - 
 Step 2 - 
