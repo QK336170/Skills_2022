@@ -17,7 +17,8 @@ Step 7 - Fixed push errors by adding ssh keys and made first push</p>
 Step 2 : Edited Ansible inventory<br>
 Step 3 : Specified to Ansible where to find the inventory through .cfg<br>
 Step 4 : Created playbook for both pinging and installing apache server<br>
-Step 5 : Results</p>
+Step 5 : Results<br>
+Bonus step : While facing warnings regarding the ping task.. i explored another way to ping apache. The file is called <b>ANOTHER_WAY.yaml<b></p>
 
 <h2>Steps for task Task 3 -- Docker</h2>
 <p>Step 1 : Pulled ntp from docker hub<br>
