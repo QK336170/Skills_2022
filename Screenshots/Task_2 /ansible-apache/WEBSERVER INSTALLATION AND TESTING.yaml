@@ -1,0 +1,22 @@
+---
+- name: "WEBSERVER INSTALLATION AND TESTING"
+  hosts: all
+  become: yes
+  tasks:
+    - name: INSTALL APACHE2
+      apt: name=apache2 update_cache=yes state=latest
+ 
+    - name: ENABLED MOD_REWRITE
+      apache2_module: name=rewrite state=present
+      notify:
+        - RESTART_APACHE2
+    
+    - action: ping
+      register: hello
+    - debug: msg="{hello.stdout}" 
+      
+
+  handlers:
+    - name: RESTART_APACHE2
+      service: name=apache2 state=restarted 
+
