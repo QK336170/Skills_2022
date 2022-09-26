@@ -33,3 +33,6 @@ Step 4 :Jenkins ready<br>
 Step 5 : Configured the pipeline with timeout option 20s to stop container from running, since the task is for demo purposes.<br>
 Step 6 : Pipeline is ready to run<br>
 Step 7 : Task done, result is ok.</p>
+
+<h2>Steps for task Task 5 -- Unit Testing</h2>
+<p><br>All steps can be found in Task_5 folder in the form of a screenshot, and also i have provided the files.</p>
