@@ -27,7 +27,7 @@ Step 3 : Checked running containers<br>
 Step 4 : Executed /bin/sh inside container to check internal structure for verification</p>
 
 <h2>Steps for task Task 4 -- Jenkins</h2>
-</p>Step 1 : Pulled jenkins container from docker hub<br>
+<p>Step 1 : Pulled jenkins container from docker hub<br>
 Step 2 : Started jenkins <br>
 Step 3 : I opened jenkins in browser for 1st time & installed plugins<br>
 Step 4 :Jenkins ready<br>
